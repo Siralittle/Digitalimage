@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+  a:link {
+    color: black; }
+  a:visited {
+    color: black; }
+  a:hover {
+    color: black; }
+  a:active {
+    color: black; }
+
+li {
+  list-style: none; }
+
+.processitem {
+  margin: 20px 0; }
+  .processitem .process {
+    width: 500px;
+    height: 10px;
+    border: 1px solid black; }
+
+.menu {
+  overflow: hidden; }
+  .menu .menuitem {
+    min-width: 4em;
+    float: left;
+    margin: 0 1em 0 0; }
+    .menu .menuitem:hover .hideitem {
+      display: block;
+      position: absolute; }
+    .menu .menuitem .hideitem {
+      background: white;
+      min-width: 6em;
+      display: none;
+      border: 1px solid black; }
+      .menu .menuitem .hideitem li:hover {
+        background: gray; }
+    .menu .menuitem #save {
+      overflow: hidden;
+      position: relative; }
+      .menu .menuitem #save a {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0; }
+
+#myCanvas {
+  border: 1px solid black; }
+
+#rawCanvas {
+  border: 1px solid black; }
+
+.processitem .process .blue {
+  background: blue;
+  height: 10px;
+  width: 0px; }
+
+/*# sourceMappingURL=index.css.map */

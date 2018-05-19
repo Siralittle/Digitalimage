@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<ul class="menu">
+		<li class="menuitem">
+			<div class="menutext">文件</div>
+			<ul class="hideitem">
+				<li id="open">打开</li>
+				<li id="save"><a download="canvas.png"></a>保存</li>
+				<li><hr></li>
+				<li id="exit">退出</li>
+			</ul>
+		</li>
+<!-- 		<li class="menuitem">
+			<div class="menutext">图像分割及测量</div>
+			<ul class="hideitem">
+				<li id="signall">区域标记</li>
+				<li id="calsize">区域面积测量</li>
+				<li id="callen">周长测量</li>
+			</ul>
+		</li> -->
+		<li class="menuitem">
+			<div class="menutext">图像形态学</div>
+			<ul class="hideitem">
+				<li id="shuipingxiao">水平腐蚀</li>
+				<li id="chuizhixiao">垂直腐蚀</li>
+				<li id="alldirxiao">全方向</li>
+			</ul>
+		</li>
+		<li class="menuitem">
+			<div class="menutext">彩色图像处理</div>
+			<ul class="hideitem">
+				<li id="begray">灰度化处理</li>
+				<li id="becolorful">着色处理</li>
+				<li id="belight">亮度调整</li>
+			</ul>
+		</li>
+
+	</ul>
+
+	<div class="processitem">
+		进度条：<div class="process">
+			<div class="blue"></div>
+		</div>
+	</div>
+	<canvas id="rawCanvas" width="300" height="300">抱歉，您的浏览器还不支持canvas。</canvas>
+	<canvas id="myCanvas" width="300" height="300">抱歉，您的浏览器还不支持canvas。</canvas>
+	<script src="js/index.js"></script>
+</body>
+</html>
